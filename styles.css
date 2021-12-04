@@ -1,0 +1,104 @@
+.Title {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  top: 5vh;
+  left: 42vw;
+}
+.popup {
+  position: absolute;
+  visibility: hidden;
+  top: 35vh;
+  left: 36vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 30vw;
+  height: 30vh;
+
+  background-color: lightcoral;
+  border-radius: 25px;
+}
+.button {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 22px;
+  top: 15vh;
+  left: 46vw;
+
+  border-radius: 15px;
+}
+.Reset {
+  position: relative;
+  top: 7vh;
+  left: 0;
+}
+
+h3 {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 28px;
+  top: 2vh;
+}
+
+.wall {
+  position: absolute;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  background-color: grey;
+  height: 50px;
+  width: 1350px;
+}
+.redWall {
+  top: 560px;
+  left: 300px;
+  transform: rotate(26.5deg);
+}
+.blueWall {
+  top: 550px;
+  left: 315px;
+  transform: rotate(26.5deg);
+}
+.greenWall {
+  top: 540px;
+  left: 330px;
+  transform: rotate(26.5deg);
+}
+.pinkWall {
+  top: 530px;
+  left: 345px;
+  transform: rotate(26.5deg);
+}
+.marble {
+  position: absolute;
+  border: 1px solid black;
+  width: 75px;
+  height: 75px;
+  background-color: grey;
+  border-radius: 50%;
+}
+.pink {
+  background-color: pink;
+  top: 250px;
+  left: 435px;
+}
+.winner {
+  background-color: grey;
+}
+.red {
+  background-color: red;
+  top: 250px;
+  left: 400px;
+}
+.blue {
+  background-color: blue;
+  top: 250px;
+  left: 415px;
+}
+.green {
+  background-color: green;
+  top: 250px;
+  left: 430px;
+}
